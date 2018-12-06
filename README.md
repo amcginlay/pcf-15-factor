@@ -8,7 +8,7 @@ Just my own thoughts ...
 | Factor                               | Platform                       | Developer                                 |
 |--------------------------------------|--------------------------------|-------------------------------------------|
 | One codebase, one application        | -                              | Source code control                       |
-| API first                            | CAPI, OpsMan, PivNet           | Microservice development best practice    |
+| API first                            | CAPI, OpsMan API, PivNet API   | Microservice development best practice    |
 | Dependency management                | BOSH releases                  | Maven, Nuget, RubyGems, NPM               | 
 | Design, build, release, and run      | Buildpacks                     | `cf push`                                 |
 | Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests          |
