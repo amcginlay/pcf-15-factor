@@ -18,7 +18,7 @@ Just my own thoughts ...
 | Environment parity                   | Multi-tenancy, orgs, spaces    | -                                         |
 | Administrative processes             | BOSH errands                   | `cf run-task`, seek idempotent operations |
 | Port binding                         | Garden containers              | -                                         |
-| Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions                 |
+| Stateless processes                  | Redis and PCC tiles            | Outlaw in-memory sessions                 |
 | Concurrency                          | Autoscaling                    | Resist multi-threaded scaling             |
 | Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains            |
-| Authentication and authorization     | UAA, LDAP, SAML                | Single Sign-On service                    |
+| Authentication and authorization     | UAA, LDAP, SAML, SSO tile      | SSO tile                                  |
