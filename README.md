@@ -10,7 +10,7 @@ Just my own thoughts ...
 | One codebase, one application        | -                              | Source code control                    |
 | API first                            | CAPI, OpsMan, PivNet           | Microservice development best practice |
 | Dependency management                | -                              | Maven, Nuget, RubyGems, NPM            | 
-| Design, build, release, and run      | Buildpacks, `cf push`          | -                                      |
+| Design, build, release, and run      | Buildpacks                     | `cf push`                              |
 | Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests       |
 | Logs                                 | Loggregator                    | Stdout / Stderr                        |
 | Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks        |
