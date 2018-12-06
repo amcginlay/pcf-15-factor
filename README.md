@@ -5,20 +5,20 @@
 
 Just my own thoughts ...
 
-| Factor                               | Platform                       | Developer                              |
-|--------------------------------------|--------------------------------|----------------------------------------|
-| One codebase, one application        | -                              | Source code control                    |
-| API first                            | CAPI, OpsMan, PivNet           | Microservice development best practice |
-| Dependency management                | BOSH releases                  | Maven, Nuget, RubyGems, NPM            | 
-| Design, build, release, and run      | Buildpacks                     | `cf push`                              |
-| Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests       |
-| Logs                                 | Loggregator                    | Stdout / Stderr                        |
-| Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks        |
-| Backing services                     | Marketplace                    | `cf bind-service`, VCAP_SERVICES       |
-| Environment parity                   | Multi-tenancy, orgs, spaces    | -                                      |
-| Administrative processes             | -                              | `cf run-task`, Code for idempotency    |
-| Port binding                         | Garden containers              | -                                      |
-| Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions              |
-| Concurrency                          | Autoscaling                    | Resist multi-threaded development      |
-| Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains         |
-| Authentication and authorization     | UAA, LDAP, SAML                | Single Sign-On service                 |
+| Factor                               | Platform                       | Developer                                 |
+|--------------------------------------|--------------------------------|-------------------------------------------|
+| One codebase, one application        | -                              | Source code control                       |
+| API first                            | CAPI, OpsMan, PivNet           | Microservice development best practice    |
+| Dependency management                | BOSH releases                  | Maven, Nuget, RubyGems, NPM               | 
+| Design, build, release, and run      | Buildpacks                     | `cf push`                                 |
+| Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests          |
+| Logs                                 | Loggregator                    | Stdout / Stderr                           |
+| Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks           |
+| Backing services                     | Marketplace                    | `cf bind-service`, VCAP_SERVICES          |
+| Environment parity                   | Multi-tenancy, orgs, spaces    | -                                         |
+| Administrative processes             | -                              | `cf run-task`, seek idempotent operations |
+| Port binding                         | Garden containers              | -                                         |
+| Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions                 |
+| Concurrency                          | Autoscaling                    | Resist multi-threaded development         |
+| Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains            |
+| Authentication and authorization     | UAA, LDAP, SAML                | Single Sign-On service                    |
