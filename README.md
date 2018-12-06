@@ -15,7 +15,7 @@ Just my own thoughts ...
 | Logs                                 | Loggregator                    | Stdout / Stderr                        |
 | Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks        |
 | Backing services                     | Marketplace, VCAP_SERVICES     | `cf bind-service`                      |
-| Environment parity                   | Multi-tenancy, Orgs / Spaces   | -                                      |
+| Environment parity                   | Multi-tenancy, orgs, spaces    | -                                      |
 | Administrative processes             | -                              | `cf run-task`, Code for idempotency    |
 | Port binding                         | Garden containers              | -                                      |
 | Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions              |
