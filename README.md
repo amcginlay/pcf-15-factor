@@ -19,6 +19,6 @@ Just my own thoughts ...
 | Administrative processes             | BOSH errands                   | `cf run-task`, seek idempotent operations |
 | Port binding                         | Garden containers              | -                                         |
 | Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions                 |
-| Concurrency                          | Autoscaling                    | Resist multi-threaded development         |
+| Concurrency                          | Autoscaling                    | Resist multi-threaded scaling             |
 | Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains            |
 | Authentication and authorization     | UAA, LDAP, SAML                | Single Sign-On service                    |
