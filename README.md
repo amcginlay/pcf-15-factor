@@ -21,7 +21,4 @@ Just my own thoughts ...
 | Stateless processes                  | Redis, Gemfire                 | Outlaw in-memory sessions              |
 | Concurrency                          | Autoscaling                    | Resist multi-threaded development      |
 | Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains         |
-| Authentication and authorization     | UAA, LDAP, SAML                | UAA, LDAP, SAML                        |
-
-
-
+| Authentication and authorization     | UAA, LDAP, SAML                | Single Sign-On service                 |
