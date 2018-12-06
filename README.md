@@ -14,7 +14,7 @@ Just my own thoughts ...
 | Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests       |
 | Logs                                 | Loggregator                    | Stdout / Stderr                        |
 | Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks        |
-| Backing services                     | Marketplace, VCAP_SERVICES     | `cf bind-service`                      |
+| Backing services                     | Marketplace                    | `cf bind-service`, VCAP_SERVICES       |
 | Environment parity                   | Multi-tenancy, orgs, spaces    | -                                      |
 | Administrative processes             | -                              | `cf run-task`, Code for idempotency    |
 | Port binding                         | Garden containers              | -                                      |
