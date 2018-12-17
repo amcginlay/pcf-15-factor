@@ -5,20 +5,20 @@
 
 Just my own thoughts ...
 
-| Factor                               | Platform                       | Developer                                   |
-|--------------------------------------|--------------------------------|---------------------------------------------|
-| One codebase, one application        | -                              | Source code control                         |
-| API first                            | CAPI, OpsMan API, PivNet API   | Microservice development best practice      |
-| Dependency management                | BOSH releases                  | Maven, Nuget, RubyGems, NPM                 | 
-| Design, build, release, and run      | Buildpacks                     | `cf push`                                   |
-| Configuration, credentials, and code | Environment variables, Credhub | Environment variables, manifests            |
-| Logs                                 | Loggregator                    | Stdout / Stderr                             |
-| Disposability                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks             |
-| Backing services                     | `cf marketplace`               | `cf bind-service`, VCAP_SERVICES            |
-| Environment parity                   | Multi-tenancy, orgs, spaces    | -                                           |
-| Administrative processes             | BOSH errands                   | `cf run-task`, apply idempotency principles |
-| Port binding                         | Garden containers              | -                                           |
-| Stateless processes                  | Redis and PCC tiles            | Outlaw in-memory sessions                   |
-| Concurrency                          | Autoscaling                    | Resist multi-threaded scaling               |
-| Telemetry                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains              |
-| Authentication and authorization     | UAA, LDAP, SAML, SSO tile      | SSO tile                                    |
+| Factor                                   | Platform                       | Developer                                   |
+|------------------------------------------|--------------------------------|---------------------------------------------|
+| __One codebase, one application__        | -                              | Source code control                         |
+| __API first__                            | CAPI, OpsMan API, PivNet API   | Microservice development best practice      |
+| __Dependency management__                | BOSH releases                  | Maven, Nuget, RubyGems, NPM                 | 
+| __Design, build, release, and run__      | Buildpacks                     | `cf push`                                   |
+| __Configuration, credentials, and code__ | Environment variables, Credhub | Environment variables, manifests            |
+| __Logs__                                 | Loggregator                    | Stdout / Stderr                             |
+| __Disposability__                        | Chaos Monkey / Loris           | Lazy loading, SIGTERM callbacks             |
+| __Backing services__                     | `cf marketplace`               | `cf bind-service`, VCAP_SERVICES            |
+| __Environment parity__                   | Multi-tenancy, orgs, spaces    | -                                           |
+| __Administrative processes__             | BOSH errands                   | `cf run-task`, apply idempotency principles |
+| __Port binding__                         | Garden containers              | -                                           |
+| __Stateless processes__                  | Redis and PCC tiles            | Outlaw in-memory sessions                   |
+| __Concurrency__                          | Autoscaling                    | Resist multi-threaded scaling               |
+| __Telemetry__                            | PCF Healthwatch, Prometheus    | PCF Metrics, App syslog drains              |
+| __Authentication and authorization__     | UAA, LDAP, SAML, SSO tile      | SSO tile                                    |
